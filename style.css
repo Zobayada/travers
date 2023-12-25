@@ -187,3 +187,102 @@ nav{
     margin-top: 15px;
     display: inline-block;
 }
+
+/* ------------------ Trvellers Stories ------------------ */
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.stories div{
+    position: relative;
+    text-align: center;
+}
+
+.stories p{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    background: #00000061;
+    padding: 19px 15px;
+}
+
+.start_btn{
+    text-decoration: none;
+    background: #ffbd58;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+/* ------------------ About Traverse ------------------ */
+.about_msg{
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+    text-align: center;
+}
+
+.about_msg h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* ------------------ Footer ------------------ */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 10px;
+    color: #999;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p{
+    padding: 15px;
+}
+
+.active{
+    position: relative;
+}
+
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
