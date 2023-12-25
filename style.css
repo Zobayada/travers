@@ -45,3 +45,60 @@ nav{
     font-size: 14px;
     text-decoration: none;
 }
+
+.container{
+    padding: 0 7%;
+}
+
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.search_bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+.search_bar form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search_bar form input{
+    background: transparent;
+    display: block;
+    outline: none;
+    border: 0;
+    margin-top: 4px;
+}
+
+.search_bar form button{
+    background: #ffbd58;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.search_bar form button img{
+    width: 15px;
+    margin-top: 5px;
+}
+
+.location_input{
+    flex: 1;
+}
+
+.search_bar form label{
+    font-weight: 600;
+}
