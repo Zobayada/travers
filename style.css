@@ -108,7 +108,7 @@ nav{
 .sub_title{
     margin: 50px 0 20px;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     color: #333;
 }
 
@@ -134,4 +134,23 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+}
+
+/* ----------- Trending Places ----------- */
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
 }
