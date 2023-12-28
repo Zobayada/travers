@@ -10,7 +10,7 @@
 <body>
 
     <div class="header">
-        <nav>
+        <nav id="navBar">
             <img src="images/logo (1).png" class="logo">
             <ul class="nav_links">
                 <li>
@@ -24,6 +24,7 @@
                 </li>
             </ul>
             <a href="#" class="register_btn">Register Now</a>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
         </nav>
 
         <div class="container">
@@ -201,6 +202,17 @@
             
         </div>
     </div>
+  
     
+
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+
+
 </body>
 </html>

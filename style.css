@@ -46,6 +46,10 @@ nav{
     text-decoration: none;
 }
 
+nav .fa-bars{
+    display: none;
+}
+
 .container{
     padding: 0 7%;
 }
@@ -246,6 +250,11 @@ nav{
     margin-bottom: 25px;
 }
 
+.about_msg p{
+    line-height: 23px;
+    letter-spacing: 1px;
+}
+
 /* ------------------ Footer ------------------ */
 .footer{
     margin: 80px 0 10px;
@@ -285,4 +294,115 @@ nav{
     transform: translateX(-50%);
     bottom: -12px;
     border-radius: 2px;
+}
+
+
+/* ------------------ Mobile Devices ------------------ */
+
+@media only screen and (max-width: 767px){
+    .logo{
+        position: fixed;
+        top: 1%;
+        left: 7%;
+        height: 66px;
+        width: 112px;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        display: inline-block;
+        width: 100%;
+        padding: 70px 7% 0;
+        z-index: 100;
+        background: #000;
+        text-align: right;
+        max-height: 70px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav .nav_links li{
+        margin: 10px 0;
+        display: block;
+    }
+    .register_btn{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+    nav .fa-bars{
+        display: block;
+        position: fixed;
+        top: 3%;
+        right: 7%;
+        font-size: 22px;
+        color: #e4e4e4;
+    }
+
+    .active::after{
+        left: -40px;
+        transform: translate(0, 50%);
+        bottom: 50%;
+    }
+
+    .hidemenu{
+        max-height: 300px;
+    }
+
+    .header h1{
+        font-size: 7vw;
+        padding-top: 200px;
+    }
+
+    .search_bar{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .search_bar form{
+        display: block;
+    }
+
+    .search_bar form input{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .search_bar form button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .cta{
+        padding: 15% 5%;
+    }
+
+    .cta h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .cta p{
+        font-size: 14px;
+    }
+
+    .cta_btn {
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .stories p{
+        font-size: 22px;
+    }
+
+    .about_msg p {
+        font-size: 15px;
+    }
 }
