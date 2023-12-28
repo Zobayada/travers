@@ -440,3 +440,72 @@ nav.navbar_white .fa-bars{
 .navbar_white .active::after{
     background: #ffbd58;
 }
+
+.list_container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left_col{
+    flex-basis: 70%;
+}
+
+.left_col h1{
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.left_col .house{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+
+.house .house_img{
+    flex-basis: 40%;
+}
+
+.house .house_img img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.house .house_info{
+    flex-basis: 58%;
+    color: #555;
+}
+
+.house .house_info h3{
+    color: #333;
+    margin: 4px 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.house .house_info i{
+    color: #ffbd58;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+
+.house_price{
+    text-align: right;
+}
+
+.house_price h4{
+    font-size: 20px;
+}
+
+.house_price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.right_col{
+    flex-basis: 25%;
+}
