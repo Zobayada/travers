@@ -337,6 +337,10 @@ nav .fa-bars{
         color: #e4e4e4;
     }
 
+    nav.navbar_white .fa-bars{
+        top: 4%;
+    }
+
     .active::after{
         left: -40px;
         transform: translate(0, 50%);
@@ -405,4 +409,34 @@ nav .fa-bars{
     .about_msg p {
         font-size: 15px;
     }
+}
+
+
+/* ------------------ Listing Page ------------------ */
+
+.navbar_white{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.navbar_white .nav_links{
+    margin-top: 11px;
+}
+
+.navbar_white .nav_links li a{
+    color: #000;
+}
+
+.navbar_white .register_btn{
+    margin-top: 11px;
+    color: #fff;
+    background-color: #ffbd58;
+}
+
+nav.navbar_white .fa-bars{
+    color: #ffbd58;
+}
+
+.navbar_white .active::after{
+    background: #ffbd58;
 }
