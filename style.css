@@ -685,3 +685,43 @@ nav.navbar_white .fa-bars{
     max-width: 800px;
     margin: 20px 0 50px;
 }
+
+.check_form{
+    margin: 30px 0;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.check_form label{
+    display: block;
+}
+
+.check_form div{
+    padding: 20px;
+}
+
+.check_form input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+
+.guest_field{
+    flex: 1px;
+}
+
+.check_form button{
+    background: #ffbd58;
+    outline: none;
+    border: 0;
+    padding: 18px;
+    width: 350px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+}
