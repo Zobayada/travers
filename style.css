@@ -776,3 +776,33 @@ nav.navbar_white .fa-bars{
     display: block;
     margin-bottom: 16px;
 }
+
+.host{
+    display: flex;
+    align-items: center;
+}
+
+.host img{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.host h2{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.host i{
+    color: #ffbd58;
+}
+
+.contact_host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    padding: 15px 50px;
+    color: #555;
+    border: 1px solid #ffbd58;
+    border-radius: 8px;
+}
