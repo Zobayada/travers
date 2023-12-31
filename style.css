@@ -466,28 +466,29 @@ nav.navbar_white .fa-bars{
     border-top: 1px solid #ccc;
 }
 
-.house .house_img{
+.house_img{
     flex-basis: 40%;
 }
 
-.house .house_img img{
+.house_img img{
     width: 100%;
     border-radius: 12px;
 }
 
-.house .house_info{
+.house_info{
     flex-basis: 58%;
     color: #555;
+    line-height: 28px;
 }
 
-.house .house_info h3{
+.house_info h3{
     color: #333;
     margin: 4px 0;
     font-weight: 600;
     font-size: 22px;
 }
 
-.house .house_info i{
+.house_info i{
     color: #ffbd58;
     font-size: 18px;
     margin: 10px 1px;
@@ -508,4 +509,114 @@ nav.navbar_white .fa-bars{
 
 .right_col{
     flex-basis: 25%;
+}
+
+.sidebar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.sidebar h2{
+    font-weight: 500;
+}
+
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.filter p{
+    flex: 1;
+}
+
+.filter input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sidebar_link{
+    margin: 20px 0;
+    text-align: right;
+}
+
+.sidebar_link a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #ffbd58;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.pagination img{
+    width: 15px;
+    margin: 10px 20px;
+}
+
+.right_arrow{
+    transform: rotate(180deg);
+}
+
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination .current{
+    background: #333;
+    color: #fff;
+}
+
+/* ------------------ Mobile Devices ------------------ */
+
+@media only screen and (max-width: 767px){
+    .list_container{
+        margin-top: 100px;
+    }
+
+    .left_col, .right_col, .house_img, .house_info{
+        flex-basis: 100%;
+    }
+
+    .left_col h1{
+        font-size: 22px;
+    }
+
+    .house_info h3{
+        font-size: 18px;
+    }
+
+    .house_info i{
+        font-size: 16px;
+    }
+
+    .house_info{
+        line-height: 23px;
+        margin-top: 8px;
+    }
+
+    .pagination span{
+        margin: 10px 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
 }
