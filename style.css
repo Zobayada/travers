@@ -299,6 +299,28 @@ nav .fa-bars{
 
 /* ------------------ Mobile Devices ------------------ */
 
+
+@media screen and (min-width: 767px) {
+    .nav_links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_links li {
+        margin: 0 15px;
+    }
+
+    .nav_links li a {
+        color: #fff;
+    }
+
+    .register_btn {
+        display: block;
+        margin-left: 15px; /* Adjust margin as needed */
+    }
+}
+
 @media only screen and (max-width: 767px){
     .logo{
         position: fixed;
@@ -668,6 +690,10 @@ nav.navbar_white .fa-bars{
     grid-area: first;
 }
 
+.some_details{
+    line-height: 30px;
+}
+
 .some_details h2{
     font-weight: 500;
 }
@@ -709,10 +735,6 @@ nav.navbar_white .fa-bars{
     background: transparent;
     border: 0;
     outline: none;
-}
-
-.guest_field{
-    flex: 1px;
 }
 
 .check_form button{
@@ -806,3 +828,99 @@ nav.navbar_white .fa-bars{
     border: 1px solid #ffbd58;
     border-radius: 8px;
 }
+
+
+/* ------------------ House Details Mobile Device ------------------ */
+
+/* Your existing CSS for larger screens (between 768px and 1200px) */
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+    .check_form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .check_form div{
+        flex: 1 1 48%;
+    }
+
+    .check_form input{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .check_form button {
+        font-size: 14px;
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+}
+
+
+
+@media only screen and (max-width: 767px){
+    .house_details{
+        margin-top: 100px;
+    }
+
+    .row p{
+        margin-top: 10px;
+    }
+
+    .gallery{
+        grid-template-areas: 'first first' '. .' '. .';
+    }
+
+    .some_details h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .some_details h4{
+        font-size: 18px;
+        margin-top: 10px 0;
+        text-align: left;
+    }
+
+    .check_form{
+        padding: 10px 30px;
+    }
+
+    .check_form div{
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .check_form input{
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .check_form button {
+        font-size: 14px;
+        width: 100%; 
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+
+    .contact_host{
+        margin: 40px 0;
+    }
+}
+
