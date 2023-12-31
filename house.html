@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <title>House Details - Traverse</title>
+</head>
+
+<body>
+
+    <nav id="navBar" class="navbar_white">
+        <img src="images/logo2.png" class="logo">
+        <ul class="nav_links">
+            <li>
+                <a href="#" class="active">Popular Places</a>
+            </li>
+            <li>
+                <a href="#">Travel Outside</a>
+            </li>
+            <li>
+                <a href="#">Online Packages</a>
+            </li>
+        </ul>
+        <a href="#" class="register_btn">Register Now</a>
+        <i class="fas fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="house_details">
+        <div class="house_title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <span>245 reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, California, United States</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="gallery_img_1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
+        </div>
+
+        <div class="some_details">
+            <h2>Entire rental unit hosted by Brandon</h2>
+            <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</p>
+            <h4>$100 / Day</h4>
+        </div>
+
+        <hr class="line">
+    </div>
+
+
+    <div class="container">
+        <div class="footer">
+            <a href="https://www.facebook.com/">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+    
+            <hr>
+    
+            <p>Copyrights @ 2023, Company of Traverse</p>
+            
+        </div>
+    </div>
+
+    <script>
+        var navBar = document.getElementById("navBar");
+
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu")
+        }
+    </script>
+    
+</body>
+</html>
