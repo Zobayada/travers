@@ -8,7 +8,9 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/banner.png);
+    background-image: url(https://www.studentuniverse.com/blog/wp-content/uploads/2014/04/Most-Beautiful-Places-to-Travel-Featured-Image.jpg), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+background-blend-mode: overlay;
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +164,7 @@ nav .fa-bars{
 /* ----------- Call to Action ----------- */
 .cta{
     margin: 80px 0;
-    background-image: linear-gradient(to right, #3f2321, transparent), url(images/banner-2.png);
+    background-image: linear-gradient(to right, #3f2321, transparent), url(https://media.cnn.com/api/v1/images/stellar/prod/201230100640-13-2021-travel-destinations-maldives-restricted.jpg?q=w_4495,h_2529,x_0,y_0,c_fill);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -721,6 +723,7 @@ nav.navbar_white .fa-bars{
     flex-wrap: wrap;
     padding: 10px 15px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .check_form label{
